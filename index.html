@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f3e8ec">
+<meta name="description" content="Ballet Polaroid Wall — a soft balletcore bucket list for collecting little memories.">
+<title>Ballet Polaroid Wall · Our Bucket List</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+<header class="site-header"><div class="brand">Ballet Polaroid Wall</div><div class="header-note">OUR LITTLE MEMORIES · ✧</div></header>
+<main>
+<div id="bucket-list">
+<div class="bucket-scroll" id="bucket-scroll">
+<section class="bucket-hero">
+<div class="bucket-kicker">A LITTLE PROMISE TO OURSELVES</div>
+<h1>Our Bucket List</h1>
+<p>把想一起完成的小事，慢慢变成真实的回忆。每一张拍立得，都是认真生活过的证明。</p>
+<div class="bucket-progress-row"><span id="bucket-progress-label">OUR LITTLE ADVENTURES · 0 / 100</span><strong id="bucket-progress-percent">0%</strong></div>
+<div class="bucket-progress-track"><div class="bucket-progress-fill" id="bucket-progress-fill"></div></div>
+</section>
+<div class="bucket-filter-row" id="bucket-filter-row">
+<button class="bucket-filter active" data-filter="all" type="button">全部小事</button>
+<button class="bucket-filter" data-filter="pending" type="button">待完成</button>
+<button class="bucket-filter" data-filter="completed" type="button">已收藏</button>
+<button class="bucket-filter" data-filter="date" type="button">按日期</button>
+</div>
+<div class="bucket-section-label"><span>THE THINGS WE DREAM OF</span><span id="bucket-visible-count">100 LITTLE THINGS</span></div>
+<div class="bucket-grid" id="bucket-grid" aria-live="polite"></div>
+<div class="bucket-footnote">one day, one photo, one lovely memory · ✧</div>
+</div></div>
+</main>
+<footer class="site-footer">A little wish, a little photo, a lovely memory. ✧</footer>
+</div>
+<input class="bucket-photo-input" type="file" id="bucket-photo-picker" accept="image/*">
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="bucket-list.js"></script>
+</body></html>

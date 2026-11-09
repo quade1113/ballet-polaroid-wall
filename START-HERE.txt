@@ -1,0 +1,7 @@
+Ballet Polaroid Wall — Quick Start
+
+1. Upload index.html, styles.css, bucket-list.js, README.md and LICENSE to a GitHub repository.
+2. Enable GitHub Pages in Settings → Pages → Deploy from a branch → main → /(root).
+3. Share the GitHub Pages URL as the live demo.
+
+For details, see README.md.
